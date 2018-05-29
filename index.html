@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Information by zip code</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>1. Enter any zip code in 'Add Here' field<br>
+                    2. Click 'Submit'<br>
+                    3. Click your new button!<br><br>
+                </h4>
+                <div id="zipButtons">
+
+                </div>
+                <br>
+                
+                <div id = "response"></div>
+                <div class="row">
+                <form id="addButton">
+                    <label for="timeinput">Add Zip here: </label>
+                    <input type="text" id="timelapse-input">
+                    <br>
+                    <input id="add" type="submit" value="Submit">
+                </form>
+                </div><br>
+
+                </div>
+                <footer>Notes: This information is from US Census Data (2016 ACS 5-year Estimates) via API call. <br> Created by Patrick Willmore (in his spare time) for non-profit organizations helping humans born abroad. </footer>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+
+            
+
+        #response {
+            display:inline-block;
+            margin: none;
+        }
+        .stuff{
+            display: inline-block;
+        }
+        form {
+            text-align:left;
+        }
+
+        </style>
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+
+    <script src="assets/js.js"></script>
+
+</body>
+
+</html>
